@@ -1,0 +1,4 @@
+﻿  demo1.c
+F:\c-learning-diary\test-21-10-17\test-21-10-17\demo1.c(19,12): warning C4013: “rand”未定义；假设外部返回 int
+F:\c-learning-diary\test-21-10-17\test-21-10-17\demo1.c(44,7): warning C4013: “srand”未定义；假设外部返回 int
+  test-21-10-17.vcxproj -> F:\c-learning-diary\test-21-10-17\Debug\test-21-10-17.exe
