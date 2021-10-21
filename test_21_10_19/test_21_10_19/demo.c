@@ -1,6 +1,6 @@
 #define _CRT_SECURE_NO_WARNINGS 1
 #include <stdio.h>
-int MAX(int x,int y)
+int MAX(int x, int y)
 {
 	int max = 0;
 	max = x > y ? x : y;
@@ -15,4 +15,3 @@ int main()
 	max = MAX(num1, num2);
 	printf("%d\n ", max);
 	return 0;
-}
