@@ -1,4 +1,5 @@
 ﻿  demo1.c
-F:\C-learning\text-21-10-16\text-21-10-16\demo1.c(108,16): warning C4013: “rand”未定义；假设外部返回 int
-F:\C-learning\text-21-10-16\text-21-10-16\demo1.c(133,7): warning C4013: “srand”未定义；假设外部返回 int
-  text-21-10-16.vcxproj -> F:\C-learning\text-21-10-16\Debug\text-21-10-16.exe
+F:\c-learning-diary\text-21-10-16\text-21-10-16\demo1.c(108,16): warning C4013: “rand”未定义；假设外部返回 int
+F:\c-learning-diary\text-21-10-16\text-21-10-16\demo1.c(133,7): warning C4013: “srand”未定义；假设外部返回 int
+  LINK : 没有找到 F:\c-learning-diary\text-21-10-16\Debug\text-21-10-16.exe 或上一个增量链接没有生成它；正在执行完全链接
+  text-21-10-16.vcxproj -> F:\c-learning-diary\text-21-10-16\Debug\text-21-10-16.exe

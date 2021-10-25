@@ -15,3 +15,4 @@ int main()
 	max = MAX(num1, num2);
 	printf("%d\n ", max);
 	return 0;
+}
