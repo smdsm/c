@@ -85,7 +85,7 @@ void daYingChenFaKoJueBiao(int n)
 	{
 		for (j = i; j <= n; j++)
 		{
-			printf("%d * %d  ", i, j);
+			printf("%d * %d =%d   ", i, j, i*j);
 		}
 		printf("\n");
 	}
