@@ -1,0 +1,3 @@
+﻿  test.c
+F:\C\test11_23\test11_23\test.c(100,8): warning C4778: “scanf”: 格式字符串“%”未终止
+  test11_23.vcxproj -> F:\C\test11_23\Debug\test11_23.exe
