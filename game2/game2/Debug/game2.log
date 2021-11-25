@@ -1,3 +1,2 @@
-﻿  test.c
-F:\c-learning-diary\game2\game2\test.c(7,7): warning C4101: “mine”: 未引用的局部变量
+﻿  game2.c
   game2.vcxproj -> F:\c-learning-diary\game2\Debug\game2.exe
