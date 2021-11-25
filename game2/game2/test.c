@@ -1,0 +1,49 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+#include "game2.h"
+
+void game1()
+{
+	char board[ROW][COL];
+	char mine[ROW][COL];
+	InitBoard(board, ROW, COL);
+	PrintBoard(board, ROW, COL);
+
+}
+
+void menu()
+{
+	printf("**********************\n");
+	printf("******  1. play  *****\n");
+	printf("******  0. exit  *****\n");
+	printf("**********************\n");
+}
+
+void test()
+{
+	int input = 0;
+	do
+	{
+		menu();
+		printf("请选择是否开始游戏：\n");
+		scanf("%d", &input);
+		switch (input)
+		{
+		case 0:
+			printf("退出游戏！\n");
+			break;
+		case 1:
+			printf("开始游戏\n");
+			game1();
+			break;
+		default:
+			printf("输入错误，请重新选择：\n");
+			break;
+		}
+	} while (input);
+}
+
+
+int main()
+{
+	test();
+}
