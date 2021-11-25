@@ -47,8 +47,8 @@ int max(int x, int y)
 #include <stdio.h>
 //int main()
 //{
-//	int c1, c2;
-//	c1 = 197;
+//	char c1, c2;
+//	c1 = 128;
 //	c2 = 198;
 //	printf("%c %c\n", c1, c2);
 //	printf("%d %d\n", c1, c2);
@@ -88,18 +88,18 @@ int max(int x, int y)
 //}
 
 
-#include <stdio.h>
-#include <math.h>
-int main ()
-{
-	double r = 0;
-	int n = 0;
-	double p = 0;
-	n = 10;
-	printf("请输入年增长率（百分数格式）,结果会以小数形式输出");
-	scanf("%lf%", &r);
-	r = 0.01 * r;
-	p = pow(1 + r, n);
-	printf("与%d年前相比增长了%f\n", n, p);
-	return 0;
-}
+//#include <stdio.h>
+//#include <math.h>
+//int main ()
+//{
+//	double r = 0;
+//	int n = 0;
+//	double p = 0;
+//	n = 10;
+//	printf("请输入年增长率（百分数格式）,结果会以小数形式输出");
+//	scanf("%lf%", &r);
+//	r = 0.01 * r;
+//	p = pow(1 + r, n);
+//	printf("与%d年前相比增长了%f\n", n, p);
+//	return 0;
+//}
