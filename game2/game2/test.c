@@ -9,7 +9,7 @@ void game1()
 	InitBoard(mine, ROW, COL,'0');
 	//²¼ÖÃÀ×ÅÌ
 	SetMine(mine,ROW,COL);
-	DisplayBoard(mine, ROW, COL);
+	//DisplayBoard(mine, ROW, COL);
 	//´òÓ¡À×ÅÌ
 	DisplayBoard(show, ROW, COL);
 	//ÅÅÀ×
@@ -54,4 +54,6 @@ void test()
 int main()
 {
 	test();
+
+	return 0;
 }

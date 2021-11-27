@@ -4,7 +4,7 @@
 #include <time.h>
 #define ROW 11
 #define COL 11
-#define EASY_COUNT 80
+#define EASY_COUNT 10
 
 void InitBoard(char board[ROW][COL],int row,int col,char set);
 
