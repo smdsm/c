@@ -1,0 +1,15 @@
+﻿  test4.c
+  test5.c
+F:\c-learning-diary\学校作业\test_12_23\test_12_23\test5.c(14,7): warning C4047: “函数”:“float *”与“float [4][6]”的间接级别不同
+F:\c-learning-diary\学校作业\test_12_23\test_12_23\test5.c(14,6): warning C4024: “ave”: 形参和实参 1 的类型不同
+F:\c-learning-diary\学校作业\test_12_23\test_12_23\test5.c(15,8): warning C4047: “函数”:“float *”与“float [4][6]”的间接级别不同
+F:\c-learning-diary\学校作业\test_12_23\test_12_23\test5.c(15,7): warning C4024: “ave1”: 形参和实参 1 的类型不同
+F:\c-learning-diary\学校作业\test_12_23\test_12_23\test5.c(16,9): warning C4047: “函数”:“float *”与“float [4][6]”的间接级别不同
+F:\c-learning-diary\学校作业\test_12_23\test_12_23\test5.c(16,8): warning C4024: “fail2”: 形参和实参 1 的类型不同
+F:\c-learning-diary\学校作业\test_12_23\test_12_23\test5.c(17,8): warning C4047: “函数”:“float *”与“float [4][6]”的间接级别不同
+F:\c-learning-diary\学校作业\test_12_23\test_12_23\test5.c(17,7): warning C4024: “good”: 形参和实参 1 的类型不同
+F:\c-learning-diary\学校作业\test_12_23\test_12_23\test5.c(29,31): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+F:\c-learning-diary\学校作业\test_12_23\test_12_23\test5.c(38,17): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+F:\c-learning-diary\学校作业\test_12_23\test_12_23\test5.c(34,9): warning C4101: “j”: 未引用的局部变量
+  正在生成代码...
+  test_12_23.vcxproj -> F:\c-learning-diary\学校作业\test_12_23\Debug\test_12_23.exe

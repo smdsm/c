@@ -1,0 +1,3 @@
+﻿  test.c
+F:\c-learning-diary\学校作业\twst_12_15\twst_12_15\test.c(9,6): warning C4013: “swap”未定义；假设外部返回 int
+F:\c-learning-diary\学校作业\twst_12_15\twst_12_15\test.c(13,6): error C2371: “swap”: 重定义；不同的基类型
