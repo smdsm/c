@@ -1,0 +1,5 @@
+﻿  test3.c
+F:\c-learning-diary\学校作业\test_12_27\test_12_27\test3.c(18,11): warning C4133: “函数”: 从“Stu [4]”到“Sru *”的类型不兼容
+F:\c-learning-diary\学校作业\test_12_27\test_12_27\test3.c(20,45): warning C4133: “函数”: 从“Stu [4]”到“Sru *”的类型不兼容
+F:\c-learning-diary\学校作业\test_12_27\test_12_27\test3.c(36,24): warning C4028: 形参 1 与声明不同
+  test_12_27.vcxproj -> F:\c-learning-diary\学校作业\test_12_27\Debug\test_12_27.exe
