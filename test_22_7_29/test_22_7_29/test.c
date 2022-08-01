@@ -40,16 +40,51 @@ void bubble(void* base, int count, int size, int(*cmp)(void*, void*))
             }
         }
 }
+//int main()
+//{
+//    int arr[] = { 1, 3, 5, 7, 9, 2, 4, 6, 8, 0 };
+//    //char *arr[] = {"aaaa","dddd","cccc","bbbb"};
+//    int i = 0;
+//    bubble(arr, sizeof(arr) / sizeof(arr[0]), sizeof(int), int_cmp);
+//    for (i = 0; i < sizeof(arr) / sizeof(arr[0]); i++)
+//    {
+//        printf("%d ", arr[i]);
+//    }
+//    printf("\n");
+//    return 0;
+//}
+
+#include <windows.h>
+
+//int main()
+//{
+//    char a = 101;
+//    int sum = 200;
+//    //a += 27; sum += a;
+//    //printf("%d\n", sum);
+//    for (int i = 0; i < 256; i++)
+//    {
+//        a++;
+//        printf("%d\n", a);
+//        Sleep(500);
+//    }
+//    return 0;
+//}
+
 int main()
 {
-    int arr[] = { 1, 3, 5, 7, 9, 2, 4, 6, 8, 0 };
-    //char *arr[] = {"aaaa","dddd","cccc","bbbb"};
-    int i = 0;
-    bubble(arr, sizeof(arr) / sizeof(arr[0]), sizeof(int), int_cmp);
-    for (i = 0; i < sizeof(arr) / sizeof(arr[0]); i++)
-    {
-        printf("%d ", arr[i]);
-    }
-    printf("\n");
+    int value = 1024;
+    //00000000000000000000010000000000
+    // 00  00  04  00
+    //
+    char condition = *((char*)(&value));//00
+    if (condition)
+        value += 1;
+    condition = *((char*)(&value));
+    if (condition)
+        value += 1; 
+    condition = *((char*)(&value));
+    printf("%d %d", value, condition);
+
     return 0;
 }
