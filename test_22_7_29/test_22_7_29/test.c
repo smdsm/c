@@ -70,21 +70,66 @@ void bubble(void* base, int count, int size, int(*cmp)(void*, void*))
 //    }
 //    return 0;
 //}
+//void func(char para[100]);
+//
+//int main()
+//{
+//    int value = 1024;
+//    //00000000000000000000010000000000
+//    // 00  00  04  00
+//    //
+//    char condition = *((char*)(&value));//00
+//    if (condition)
+//        value += 1;
+//    condition = *((char*)(&value));
+//    if (condition)
+//        value += 1; 
+//    condition = *((char*)(&value));
+//    //printf("%d %d", value, condition);
+//    char para[100];
+//    func(para);
+//    return 0;
+//}
+//
+//void func(char para[100])
+//{
+//    void* p = malloc(100);
+//    printf("%d, %d\n", sizeof(para), sizeof(p));
+//}
+
+//#include <stdio.h>
+//void func(char* p) { p = p + 1; }
+//int main()
+//{
+//    char s[] = { '1', '2', '3', '4' };
+//    func(s);
+//    printf("%c", *s);
+//    return 0;
+//}
+
+//n以内自守数的数量
+#include <stdio.h>
 
 int main()
 {
-    int value = 1024;
-    //00000000000000000000010000000000
-    // 00  00  04  00
-    //
-    char condition = *((char*)(&value));//00
-    if (condition)
-        value += 1;
-    condition = *((char*)(&value));
-    if (condition)
-        value += 1; 
-    condition = *((char*)(&value));
-    printf("%d %d", value, condition);
+    int n = 0;
+    int s = 0;
+    int x = 10;
 
+    scanf("%d", &n);
+
+    for (int i = 0; i <= n; i++)
+    {
+        if (i >= x)
+        {
+            x *= 10;
+        }
+        if ((i * i - i) % x == 0)
+        {
+            s++;
+        }
+    }
+
+    printf("%d\n", s);
     return 0;
 }
